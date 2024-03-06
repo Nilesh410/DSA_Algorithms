@@ -56,5 +56,7 @@ public class selectionsort {
 //                             =n^2+n
 //                             =n^2
 //  so worst case time complexity = o(n^2)
-//
-//
+//  Space complexity 
+// total number of space complexity=o(1)
+// total number of swapping approximately=n-1 
+// total number of comparison =n^2;
