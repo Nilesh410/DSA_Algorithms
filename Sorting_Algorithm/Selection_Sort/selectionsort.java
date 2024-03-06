@@ -48,3 +48,13 @@ public class selectionsort {
         return small_index;
     }
 }
+
+// Time complexity of selection sort is depends on how many comparison durin each iteration
+// so for each iterantion comparison of n-1, n-2,n-3........2
+// so total time to comparison = n(n+1)/2-1
+//                             =n(n+1)/2
+//                             =n^2+n
+//                             =n^2
+//  so worst case time complexity = o(n^2)
+//
+//
