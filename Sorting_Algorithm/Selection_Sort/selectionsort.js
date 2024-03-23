@@ -25,13 +25,13 @@ function minEleIndex(arr,i)
     return index_min_ele;
 }
 
-// const arr=[9,6,2,1,4] //Test Case 1
+ const arr=[9,6,2,1,4] //Test Case 1
 // const arr=[3,-2,1,0,5,12] //Test Case 2
 // const arr=[45,12] //Test Case 3
 // const arr=[-3,-1,-5] //Test Case 4
 // const arr=["Nilesh","Ridant","Jyoti"] //Test Case 5
 // const arr=[12,"NSS",45,-12,45.7] //Test Case 6
-const arr=[34,12,5,"NSS",23.2] //Test Case 7
+//const arr=[34,12,5,"NSS",23.2] //Test Case 7
 
 console.log("Input array=",arr)
 selectionSort(arr)
